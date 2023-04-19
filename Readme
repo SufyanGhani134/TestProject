@@ -1,0 +1,5 @@
+The movie App has a user-friendly interface that displays movie information in the form of cards. Each card shows the movie's title and the year it was released, along with a small icon in the bottom right corner. By clicking on the icon, users can view additional details about the movie, such as the plot summary, cast members, and ratings.
+
+To search for a specific movie, users can use the input field located in the top right corner of the screen. If the movie is available in the database, the App will display a card with all the relevant details. However, if the movie is not available in the database, the App will revert to displaying the default cards with information about other movies.
+
+Refresh the browser for the first time to fetch the data from local storage.

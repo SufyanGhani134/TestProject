@@ -1,0 +1,135 @@
+body{
+    background-color: #090909;
+}
+.container_1{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4%;
+}
+.container_1 img{
+    height:50px;
+    padding-top:2%;
+}
+.menu_bar{
+    display: flex;
+    width:100%
+}
+.menu_bar p {
+    color: lightgrey;
+    padding:2% 2% 0% 2%;
+    /* background-color: aquamarine; */
+}
+.menu_bar p:hover{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: underline;
+}
+.search_bar{
+    display: flex;
+    gap:5px;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+.fa-search{
+    color: lightgrey;
+}
+.fa-search:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#search_bar{
+    width: 13rem;
+    height: 2rem;
+    border:none;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    font-size: 15px;
+    padding-left: 25px;
+    /* display:none; */
+}
+.main{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    border:solid 1px #fff;
+    width: 32%;
+    margin: 5px;
+    border-radius: 30px;
+    max-height: 700px;
+    overflow: hidden;
+}
+.card img{
+    width: 90%;
+    padding:5% 5% 0% 5%;
+    border-radius: 30px;
+}
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-bottom: 3%;
+    justify-content: space-between;
+    max-height: 100%;
+    transform: translateY(0%);
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.desc>h1>span{
+    font-size:15px; 
+    font-weight:100;
+    padding-left:2%;
+}
+.desc h1{
+    margin: 0;
+    padding: 5% 0% 0% 7%;
+    font-size: 25px;
+    width: 75%;
+}
+#overview{
+    padding-left: 7%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    /* transform:translateY(30%); */
+}
+#overview span{
+    padding-right: 23px;
+    text-align: justify;
+    font-weight: 100;
+    font-size: 15px;
+}
+.rate{
+    padding-top: 5%;
+    padding-left: 7%;
+    width:100%;
+    /* display:flex; */
+}
+.rate>span{
+    padding-left: 10px;
+}
+.fa-caret-up{
+    height: 37px;
+    padding: 0px 10px;
+}
+.fa-caret-up:hover{
+    cursor: pointer;
+}
+.dropdown_icon{
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.genre{
+    /* padding-top: 5%; */
+    padding-left: 7%;
+    margin: 0;
+    /* width:100%; */
+}
+.genre>span{
+    font-weight: 100;
+    font-size: medium;
+    padding-left: 10px;
+}
